@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.threadlist-container::-webkit-scrollbar {
+  width: 6px;
+  border-radius: 6px;
+}
+
+.nav-links::-webkit-scrollbar {
+  display: none;
+}
+
+.threadlist-container::-webkit-scrollbar-thumb {
+  background: #6b7280;
+  border-radius: 8px;
+}
+
+.threadlist-container::-webkit-scrollbar-thumb:hover {
+  background: #4b5563;
+}
